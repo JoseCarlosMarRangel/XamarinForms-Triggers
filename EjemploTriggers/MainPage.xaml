@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EjemploTriggers"
+             x:Class="EjemploTriggers.MainPage">
+
+    <ContentPage.Resources>
+        <local:Nombre x:Key="Nombre"/>
+    </ContentPage.Resources>
+
+    <StackLayout>
+
+        <!--! Trigger isFocused-->
+        <Entry Placeholder="Write a text"
+               x:Name     ="TextEntry" Text="Example">
+            <!-- ! Property Trigger-->
+            <Entry.Triggers>
+                <Trigger TargetType="Entry" Property="IsFocused" Value="true">
+                    <Setter Property="TextColor" Value="Green"/>
+                    <Setter Property="Background" Value="Black" />
+                </Trigger>
+            </Entry.Triggers>
+        </Entry>
+        <Entry Placeholder="Dime tu nombre" x:Name="nombre">
+            
+        </Entry>
+
+        <Button Text            ="Click here"
+                BackgroundColor ="#C39BD3">
+            <Button.Triggers>
+                <!-- !Data Trigger -->
+                <DataTrigger TargetType="Button"
+                            Binding   ="{Binding Source={x:Reference TextEntry}, Path=Text.Length}" 
+                            Value     ="0">
+                    <Setter Property="Text"             Value="Trigger activated" />
+                    <Setter Property="BackgroundColor"  Value="#5DADE2" />
+                    <Setter Property="IsEnabled" Value="False"/>
+                </DataTrigger>
+            </Button.Triggers>
+        </Button>
+
+        <Button Text            ="Nombre"
+                BackgroundColor ="#C39BD3" IsEnabled="False">
+            <Button.Triggers>
+                <MultiTrigger TargetType="Button">                    <MultiTrigger.Conditions>                        <BindingCondition Binding="{Binding Source={x:Reference TextEntry},                                   Path=Text, Converter={StaticResource Nombre}}"                               Value="true" />                                    <!-- ! Recuerda checar path por que es lo que le mandas al converter-->                        <BindingCondition Binding="{Binding Source={x:Reference nombre},                                   Path=Text,Converter={StaticResource Nombre}}" Value="True" />                    </MultiTrigger.Conditions>                    <Setter Property="IsEnabled" Value="true" />                    <!-- multiple Setter elements are allowed -->                </MultiTrigger>
+            </Button.Triggers>
+            
+        </Button>
+
+    </StackLayout>
+
+</ContentPage>

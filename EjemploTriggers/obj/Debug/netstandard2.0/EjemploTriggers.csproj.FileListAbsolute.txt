@@ -1,0 +1,15 @@
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\EjemploTriggers.csproj.AssemblyReference.cache
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\EjemploTriggers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\bin\Debug\netstandard2.0\EjemploTriggers.deps.json
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\bin\Debug\netstandard2.0\EjemploTriggers.dll
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\bin\Debug\netstandard2.0\EjemploTriggers.pdb
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\EjemploTriggers.AssemblyInfoInputs.cache
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\EjemploTriggers.AssemblyInfo.cs
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\EjemploTriggers.csproj.CoreCompileInputs.cache
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\EjemploTriggers.dll
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\refint\EjemploTriggers.dll
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\EjemploTriggers.pdb
+C:\Users\necro\source\repos\EjemploTriggers\EjemploTriggers\obj\Debug\netstandard2.0\ref\EjemploTriggers.dll
